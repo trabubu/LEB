@@ -42,11 +42,17 @@ def fazer_plot_1_voluntario(df_proporcoes1 = None, df_proporcoes2 = None, num_vo
                 else:
                     plt.show()
                 
-                
+
+
+          
 if __name__ == '__main__':
     
     sarbg_proporcao = Dados.sarbg_proporcao
     sas_proporcao = Dados.sas_proporcao
+    sas_limiar = Dados.sas_limiar
+    sarbg_limiar = Dados.sarbg_limiar
+    se_limiar = Dados.se_limiar
+    infos = Dados.infos
     
     fazer_plot_1_voluntario(sarbg_proporcao, sas_proporcao, salvar= True) 
                 
